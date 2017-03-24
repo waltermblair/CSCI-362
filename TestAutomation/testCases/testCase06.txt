@@ -1,0 +1,7 @@
+ID	6
+Req	Divide the input into 1.0
+Comp	Calculator.java
+Method	public Double calculateMono(MonoOperatorModes oneDividedBy, Double num)
+Inputs	10.0
+Expect	0.10
+Driver	testDriverOneDividedBy

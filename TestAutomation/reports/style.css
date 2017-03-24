@@ -1,0 +1,7 @@
+#table {display:table; border:1px solid #000;}
+.row {display:table-row;}
+.head, .cell {display:table-cell; padding:5px; border:1px solid #fff;}
+.head {background-color:#666; color:#fff; font-weight:bold;}
+.cell {background-color:#e5e5e5;}
+.pass {background-color:#008000;}
+.fail {background-color:#ff0000;}

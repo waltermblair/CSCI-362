@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset=UTF-8>
+		<title>Team TBD Tests</title>
+		<link rel="stylesheet" type="text/css" href="../reports/style.css" />
+	</head>
+	<body>
+		<div id="table">
+			<div class="row">
+				<div class="head">Test #</div>
+				<div class="head">Method</div>
+				<div class="head">Input</div>
+				<div class="head">Expected</div>
+				<div class="head">Result</div>
+			</div>
+			<div class="row">
+				<div class="cell"><a href="../testCases/../testCases/testCase01.txt">Test #1</a></div>
+				<div class="cell">public Double calculateMono(MonoOperatorModes square, Double num)</div>
+				<div class="cell">2.0</div>
+				<div class="cell">4.0</div>
+				<div class="cell fail">5.0</div>
+			</div>
+			<div class="row">
+				<div class="cell"><a href="../testCases/../testCases/testCase02.txt">Test #2</a></div>
+				<div class="cell">public Double calculateMono(MonoOperatorModes square, Double num)</div>
+				<div class="cell">9.0</div>
+				<div class="cell">81.0</div>
+				<div class="cell fail">82.0</div>
+			</div>
+			<div class="row">
+				<div class="cell"><a href="../testCases/../testCases/testCase03.txt">Test #3</a></div>
+				<div class="cell">public Double calculateMono(MonoOperatorModes squareRoot, Double num)</div>
+				<div class="cell">9.0</div>
+				<div class="cell">3.0</div>
+				<div class="cell fail">4.0</div>
+			</div>
+			<div class="row">
+				<div class="cell"><a href="../testCases/../testCases/testCase04.txt">Test #4</a></div>
+				<div class="cell">public Double calculateMono(MonoOperatorModes squareRoot, Double num)</div>
+				<div class="cell">0.0</div>
+				<div class="cell">0.0</div>
+				<div class="cell fail">1.0</div>
+			</div>
+			<div class="row">
+				<div class="cell"><a href="../testCases/../testCases/testCase05.txt">Test #5</a></div>
+				<div class="cell">public Double calculateMono(MonoOperatorModes oneDividedBy, Double num)</div>
+				<div class="cell">1.0</div>
+				<div class="cell">1.0</div>
+				<div class="cell fail">2.0</div>
+			</div>
+			<div class="row">
+				<div class="cell"><a href="../testCases/../testCases/testCase06.txt">Test #6</a></div>
+				<div class="cell">public Double calculateMono(MonoOperatorModes oneDividedBy, Double num)</div>
+				<div class="cell">10.0</div>
+				<div class="cell">0.1</div>
+				<div class="cell fail">0.2</div>
+			</div>
+			<div class="row">
+				<div class="cell"><a href="../testCases/../testCases/testCase07.txt">Test #7</a></div>
+				<div class="cell">public Double calculateMono(MonoOperatorModes cos, Double num)</div>
+				<div class="cell">1.0</div>
+				<div class="cell">0.5403023058681398</div>
+				<div class="cell fail">1.8508157176809255</div>
+			</div>
+			<div class="row">
+				<div class="cell"><a href="../testCases/../testCases/testCase08.txt">Test #8</a></div>
+				<div class="cell">public Double calculateMono(MonoOperatorModes cos, Double num)</div>
+				<div class="cell">0.0</div>
+				<div class="cell">1.0</div>
+				<div class="cell pass">1.0</div>
+			</div>
+			<div class="row">
+				<div class="cell"><a href="../testCases/../testCases/testCase09.txt">Test #9</a></div>
+				<div class="cell">public Double calculateMono(MonoOperatorModes sin, Double num)</div>
+				<div class="cell">1.0</div>
+				<div class="cell">0.8414709848078965</div>
+				<div class="cell pass">0.8414709848078965</div>
+			</div>
+			<div class="row">
+				<div class="cell"><a href="../testCases/../testCases/testCase10.txt">Test #10</a></div>
+				<div class="cell">public Double calculateMono(MonoOperatorModes sin, Double num)</div>
+				<div class="cell">0.0</div>
+				<div class="cell">0.0</div>
+				<div class="cell pass">0.0</div>
+			</div>
+			<div class="row">
+				<div class="cell"><a href="../testCases/../testCases/testCase11.txt">Test #11</a></div>
+				<div class="cell">public Double calculateMono(MonoOperatorModes tan, Double num)</div>
+				<div class="cell">1.0</div>
+				<div class="cell">1.5574077246549023</div>
+				<div class="cell fail">0.6420926159343306</div>
+			</div>
+			<div class="row">
+				<div class="cell"><a href="../testCases/../testCases/testCase12.txt">Test #12</a></div>
+				<div class="cell">public Double calculateMono(MonoOperatorModes tan, Double num)</div>
+				<div class="cell">0.0</div>
+				<div class="cell">0.0</div>
+				<div class="cell fail">Infinity</div>
+			</div>
+			<div class="row">
+				<div class="cell"><a href="../testCases/../testCases/testCase13.txt">Test #13</a></div>
+				<div class="cell">public Double calculateMono(MonoOperatorModes tan, Double num)</div>
+				<div class="cell">-1.0</div>
+				<div class="cell">-1.5574077246549023</div>
+				<div class="cell fail">-0.6420926159343306</div>
+			</div>
+			<div class="row">
+				<div class="cell"><a href="../testCases/../testCases/testCase14.txt">Test #14</a></div>
+				<div class="cell">public Double calculateMono(MonoOperatorModes sin, Double num)</div>
+				<div class="cell">-1.0</div>
+				<div class="cell">-0.8414709848078965</div>
+				<div class="cell pass">-0.8414709848078965</div>
+			</div>
+			<div class="row">
+				<div class="cell"><a href="../testCases/../testCases/testCase15.txt">Test #15</a></div>
+				<div class="cell">public Double calculateMono(MonoOperatorModes cos, Double num)</div>
+				<div class="cell">-1.0</div>
+				<div class="cell">0.5403023058681398</div>
+				<div class="cell fail">1.8508157176809255</div>
+			</div>
+			<div class="row">
+				<div class="cell"><a href="../testCases/../testCases/testCase16.txt">Test #16</a></div>
+				<div class="cell">public Double calculateMono(MonoOperatorModes oneDividedBy, Double num)</div>
+				<div class="cell">42.0</div>
+				<div class="cell">0.023809523809523808</div>
+				<div class="cell fail">0.047619047619047616</div>
+			</div>
+			<div class="row">
+				<div class="cell"><a href="../testCases/../testCases/testCase17.txt">Test #17</a></div>
+				<div class="cell">public Double calculateMono(MonoOperatorModes squareRoot, Double num)</div>
+				<div class="cell">5.0</div>
+				<div class="cell">2.23606797749979</div>
+				<div class="cell fail">3.23606797749979</div>
+			</div>
+			<div class="row">
+				<div class="cell"><a href="../testCases/../testCases/testCase18.txt">Test #18</a></div>
+				<div class="cell">public Double calculateMono(MonoOperatorModes squareRoot, Double num)</div>
+				<div class="cell">-5.0</div>
+				<div class="cell">NaN</div>
+				<div class="cell pass">NaN</div>
+			</div>
+			<div class="row">
+				<div class="cell"><a href="../testCases/../testCases/testCase19.txt">Test #19</a></div>
+				<div class="cell">public Double calculateMono(MonoOperatorModes squareRoot, Double num)</div>
+				<div class="cell">100.0</div>
+				<div class="cell">10.0</div>
+				<div class="cell fail">11.0</div>
+			</div>
+			<div class="row">
+				<div class="cell"><a href="../testCases/../testCases/testCase20.txt">Test #20</a></div>
+				<div class="cell">public Double calculateMono(MonoOperatorModes squareRoot, Double num)</div>
+				<div class="cell">10.5</div>
+				<div class="cell">3.24037034920393</div>
+				<div class="cell fail">4.24037034920393</div>
+			</div>
+			<div class="row">
+				<div class="cell"><a href="../testCases/../testCases/testCase21.txt">Test #21</a></div>
+				<div class="cell">public Double calculateMono(MonoOperatorModes square, Double num)</div>
+				<div class="cell">-2.0</div>
+				<div class="cell">4.0</div>
+				<div class="cell fail">5.0</div>
+			</div>
+			<div class="row">
+				<div class="cell"><a href="../testCases/../testCases/testCase22.txt">Test #22</a></div>
+				<div class="cell">public Double calculateMono(MonoOperatorModes square, Double num)</div>
+				<div class="cell">-9.0</div>
+				<div class="cell">81.0</div>
+				<div class="cell fail">82.0</div>
+			</div>
+			<div class="row">
+				<div class="cell"><a href="../testCases/../testCases/testCase23.txt">Test #23</a></div>
+				<div class="cell">public Double calculateMono(MonoOperatorModes square, Double num)</div>
+				<div class="cell">73.5</div>
+				<div class="cell">5402.25</div>
+				<div class="cell fail">5403.25</div>
+			</div>
+			<div class="row">
+				<div class="cell"><a href="../testCases/../testCases/testCase24.txt">Test #24</a></div>
+				<div class="cell">public Double calculateMono(MonoOperatorModes square, Double num)</div>
+				<div class="cell">-73.5</div>
+				<div class="cell">5402.25</div>
+				<div class="cell fail">5403.25</div>
+			</div>
+			<div class="row">
+				<div class="cell"><a href="../testCases/../testCases/testCase25.txt">Test #25</a></div>
+				<div class="cell">public Double calculateMono(MonoOperatorModes oneDividedBy, Double num)</div>
+				<div class="cell">-15.5</div>
+				<div class="cell">-0.06451612903225806</div>
+				<div class="cell fail">-0.12903225806451613</div>
+			</div>
+		</div>
+	</body>
+</html>

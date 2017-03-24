@@ -1,0 +1,7 @@
+ID	12
+Req	Compute the tangent of the input
+Comp	Calculator.java
+Method	public Double calculateMono(MonoOperatorModes tan, Double num)
+Inputs	0.0
+Expect	0.00
+Driver	testDriverTan

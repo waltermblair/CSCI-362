@@ -1,0 +1,7 @@
+ID	14
+Req	Compute the sine of the input
+Comp	Calculator.java
+Method	public Double calculateMono(MonoOperatorModes sin, Double num)
+Inputs	-1.0
+Expect	-0.84
+Driver	testDriverSin

@@ -1,0 +1,7 @@
+ID	23
+Req	Calculate the square of the input
+Comp	Calculator.java
+Method	public Double calculateMono(MonoOperatorModes square, Double num)
+Inputs	73.5
+Expect	5402.25
+Driver	testDriverSquare

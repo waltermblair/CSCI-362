@@ -1,0 +1,7 @@
+ID	20
+Req	Calculate the square root of the input
+Comp	Calculator.java
+Method	public Double calculateMono(MonoOperatorModes squareRoot, Double num)
+Inputs	10.5
+Expect	3.24
+Driver	testDriverSquareRoot
